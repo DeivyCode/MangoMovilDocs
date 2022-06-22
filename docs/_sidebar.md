@@ -1,5 +1,5 @@
-# Estructura de Carpetas
-* [Testing Sothing](something.md)
+# Estructura del proyecto
+* [Estructure de carpetas](ProjectArchitecture.md)
 * [Flutter Bloc](blocs/bloc.md)
 
 
