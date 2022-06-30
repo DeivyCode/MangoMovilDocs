@@ -5,6 +5,7 @@
 
 > He aquí un Ejemplo de como esta la estructura del proyecto
 ```
+lib
 └── modules
     ├─ Facturacion(modulo de ejemplo)
     ├───├── bloc o cubit

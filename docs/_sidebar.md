@@ -1,5 +1,3 @@
-- Estructura del proyecto
+- **Estructura del proyecto**
   - [Estructure de carpetas](ProjectArchitecture.md)
-  - [Flutter Bloc](blocs/bloc.md)
-
-
+  - [Inicio de la App](_app_start.md)
