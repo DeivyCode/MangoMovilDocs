@@ -25,4 +25,13 @@ class AppState extends StatelessWidget {
 En este preview del `AppState` aquí vemos como registramos el Bloc de clientes y a su vez le suministramos o le pasamos sus dependencia con el `di` o `Dependency Injection`, como se había explicado antes, este servicio nos suministra una instancia ya anteriormente creada cuando nuestra aplicación es lanzada, cuando hacemos la llamada al método `sl()` esto es sinónimo de `Service locator` este método lo que hace es que busca en su stack de instancias creadas una del tipo que le estamos pidiendo en este caso tenemos 3 dependencia con diferentes repositorios nuestro sl sabe que anteriormente ya había creado instancia de este tipo y se la pasa al constructor de `ClienteBloc`, y asi es como registramos un Bloc que puede ser usado de manera global en nuestra aplicación.
 
 
-### DI 💉
+### Dependency Injector (DI) 💉
+
+Anteriormente habías visto como se inicializaba en el método main con la siguiente sentencia
+``` dart
+await di.init();
+```
+con esta llamada al método `init()` se crean todas las dependencia que tenemos en nuestro proyecto de la siguiente forma, usando el paquete `getit` inicialmente obtenemos una instancia del mismo 
+```dart 
+final sl = GetIt.instance;
+ ```
