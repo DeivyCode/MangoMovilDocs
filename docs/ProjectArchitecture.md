@@ -7,9 +7,9 @@
 ```
 lib
 └── modules
-    ├─ Facturacion(modulo de ejemplo)
+    ├─ Facturación(modulo de ejemplo)
     ├───├── bloc o cubit
-        └── (aquí van los todos los blocs de Facturacion)   
+        └── (aquí van los todos los blocs de Facturación)   
     ├───├── data
         ├── models
         └── repositories        
